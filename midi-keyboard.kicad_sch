@@ -2016,6 +2016,12 @@
 		(uuid "47a54198-e890-43f9-8cb6-f58ec90a6fb2")
 	)
 	(junction
+		(at 24.13 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f1572e4-5c68-435d-aed1-97edc15962e7")
+	)
+	(junction
 		(at 54.61 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2146,6 +2152,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cab433c7-7ef1-4c99-8ef5-efa675561066")
+	)
+	(junction
+		(at 39.37 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d13f46e7-751c-4902-aabb-0d9fa64cc8f3")
+	)
+	(junction
+		(at 54.61 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7a3e44e-fe56-4023-a507-a0cd0bf44a97")
 	)
 	(junction
 		(at 69.85 39.37)
@@ -2443,6 +2461,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 29.21) (xy 54.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895e9c55-2fc6-463c-b47b-1e12a8e4adc3")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 140.97 119.38)
 		)
 		(stroke
@@ -2643,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 29.21) (xy 39.37 29.21)
+			(xy 24.13 29.21) (xy 8.89 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2733,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 29.21) (xy 39.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9ef90c-1f28-493d-b00c-e42bc225efaf")
+	)
+	(wire
+		(pts
 			(xy 36.83 24.13) (xy 36.83 34.29)
 		)
 		(stroke
@@ -2797,7 +2835,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 26.67 147.32 180)
+		(at 26.67 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2807,7 +2845,7 @@
 		)
 		(uuid "06efb5e9-20db-471e-8ce1-1b815c8459ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4234 147.32 0)
+			(at 18.4234 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +2955,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 26.67 144.78 180)
+		(at 26.67 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2927,7 +2965,7 @@
 		)
 		(uuid "411773d5-aed4-42f5-b764-d0333e8ce714")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4234 144.78 0)
+			(at 18.4234 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,17 +2979,17 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 26.67 162.56 180)
+		(at 72.39 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "43121611-1e2f-4c3c-84a9-ec517d1b4c77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 162.56 0)
+			(at 80.2133 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,7 +2997,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3157,17 +3195,17 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 26.67 152.4 180)
+		(at 72.39 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a99fd23c-b406-4fea-9bac-293d088f0d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 152.4 0)
+			(at 80.2133 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3213,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3205,7 +3243,7 @@
 	)
 	(global_label "ROW5"
 		(shape input)
-		(at 26.67 149.86 180)
+		(at 26.67 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3215,7 +3253,7 @@
 		)
 		(uuid "b32686f2-2671-456d-8f26-1627c4685007")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4234 149.86 0)
+			(at 18.4234 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,17 +3363,17 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 26.67 154.94 180)
+		(at 72.39 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d504f0fc-be92-4ade-ac74-1a7df1afc8cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 154.94 0)
+			(at 80.2133 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3343,23 +3381,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 26.67 160.02 180)
+		(at 72.39 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "da640701-5515-4451-8a97-0f6ae82bf985")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 160.02 0)
+			(at 80.2133 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3405,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3397,17 +3435,17 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 26.67 157.48 180)
+		(at 72.39 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ede35b69-8060-429f-bcac-eda9ef47a325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 157.48 0)
+			(at 80.2133 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,23 +3453,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 26.67 165.1 180)
+		(at 72.39 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fcc74c47-ac6c-48e4-b84d-3fbc25fed3ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 165.1 0)
+			(at 80.2133 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +3477,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3455,7 +3493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f996e9-e58a-419f-915b-77c917016202")
-		(property "Reference" "SW12"
+		(property "Reference" "SW11"
 			(at 87.63 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3556,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW12")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19efa574-9c2c-43d3-9d3b-5f2bcf064cbb")
-		(property "Reference" "SW17"
+		(property "Reference" "SW15"
 			(at 57.15 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +4049,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW17")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -4029,7 +4067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c56aedd-d9e2-4042-ac73-9002c3c9d59a")
-		(property "Reference" "SW36"
+		(property "Reference" "SW30"
 			(at 41.91 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,7 +4130,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW36")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -4213,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "248816ff-d454-45c5-97f6-97230e5c1fd9")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 26.67 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +4314,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW8")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4554,7 +4592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2deba9c0-f6db-4918-8ac5-89540b7da122")
-		(property "Reference" "SW38"
+		(property "Reference" "SW32"
 			(at 72.39 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4617,7 +4655,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW38")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -5025,7 +5063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38be6a1f-9863-4dd6-bf7a-5248acfe01be")
-		(property "Reference" "SW32"
+		(property "Reference" "SW27"
 			(at 72.39 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,7 +5126,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW32")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 24.13 127 0)
 			(hide yes)
 			(show_name no)
@@ -5368,7 +5406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ec91b6-e04e-4fc8-b44b-9ccfc223f365")
-		(property "Reference" "SW33"
+		(property "Reference" "SW28"
 			(at 87.63 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +5469,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW33")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -5449,7 +5487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d352a65-9937-4bd8-99c6-f7cd2def3a46")
-		(property "Reference" "SW26"
+		(property "Reference" "SW23"
 			(at 87.63 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5512,7 +5550,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW26")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -5736,7 +5774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "553f8403-323f-4145-8ab6-10e32deff8c4")
-		(property "Reference" "SW39"
+		(property "Reference" "SW33"
 			(at 87.63 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +5837,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW39")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -6082,7 +6120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66dfdeef-9414-46e7-81a1-cefe7b27b962")
-		(property "Reference" "SW30"
+		(property "Reference" "SW25"
 			(at 41.91 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,7 +6183,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW30")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -6450,7 +6488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71351b65-d5d0-4f44-96dd-70fe32913c7e")
-		(property "Reference" "SW13"
+		(property "Reference" "SW12"
 			(at 102.87 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6551,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW13")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ba32e81-5fb5-466c-8e6c-55bc649fefc6")
-		(property "Reference" "SW37"
+		(property "Reference" "SW31"
 			(at 57.15 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6960,7 +6998,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW37")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -6978,7 +7016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81928126-fa4c-4c3b-9a47-9821e5139b20")
-		(property "Reference" "SW29"
+		(property "Reference" "SW24"
 			(at 26.67 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +7079,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW29")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -7059,7 +7097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f162c0-21b6-49d0-8002-4ba7bbb888e9")
-		(property "Reference" "SW25"
+		(property "Reference" "SW22"
 			(at 72.39 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7122,7 +7160,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW25")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -7140,7 +7178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85834e38-ba3a-49f0-b1e4-727065448b09")
-		(property "Reference" "SW18"
+		(property "Reference" "SW16"
 			(at 72.39 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +7241,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW18")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -7221,7 +7259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4fbc72-df9d-4e35-b1ab-3cfe1dd0a500")
-		(property "Reference" "SW31"
+		(property "Reference" "SW26"
 			(at 57.15 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7322,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW31")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -7302,7 +7340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92bbbb4e-db36-4284-ab6e-2182ebd7a228")
-		(property "Reference" "SW24"
+		(property "Reference" "SW21"
 			(at 57.15 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +7403,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW24")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7383,7 +7421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c79e34-9eb6-4aa1-8bd2-b1ee90f95705")
-		(property "Reference" "SW22"
+		(property "Reference" "SW19"
 			(at 26.67 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7446,7 +7484,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW22")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -7464,7 +7502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94968507-5a62-459e-87e5-18cb5ac4aa0a")
-		(property "Reference" "SW19"
+		(property "Reference" "SW17"
 			(at 87.63 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +7565,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW19")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -7751,7 +7789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "998ce2d5-dd79-42b4-9728-f59bc55aa48a")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 57.15 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7814,7 +7852,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e0ef225-6dd6-44e8-815e-dc49e6aa18a8")
-		(property "Reference" "SW20"
+		(property "Reference" "SW18"
 			(at 102.87 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7933,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW20")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -8368,7 +8406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a851420f-eb06-486b-b899-483fb572d65b")
-		(property "Reference" "SW23"
+		(property "Reference" "SW20"
 			(at 41.91 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8431,7 +8469,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW23")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -8630,7 +8668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b62a56ac-4d24-4b1b-aea2-895fca657ae3")
-		(property "Reference" "SW35"
+		(property "Reference" "SW29"
 			(at 26.67 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +8731,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW35")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -8711,7 +8749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7af3ff6-4349-48b5-b8d0-4e38bdf802f3")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 41.91 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +8812,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -8915,7 +8953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9393,7 +9431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c962ef-0d10-4d74-83f7-e1edfa0e7a30")
-		(property "Reference" "SW16"
+		(property "Reference" "SW14"
 			(at 41.91 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9456,7 +9494,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW16")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -9474,7 +9512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d490bf20-a6d7-41d0-a56a-a4d5d3c57f70")
-		(property "Reference" "SW11"
+		(property "Reference" "SW10"
 			(at 72.39 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9537,7 +9575,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW11")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -10151,7 +10189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8da99a1-d30a-4b5b-957d-483d7589363a")
-		(property "Reference" "SW15"
+		(property "Reference" "SW13"
 			(at 26.67 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10214,7 +10252,7 @@
 		(instances
 			(project "midi-keyboard"
 				(path "/e9349127-ff11-42b1-a5b4-624bba841ee7"
-					(reference "SW15")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
