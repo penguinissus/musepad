@@ -25,7 +25,9 @@ Schematic Diagram:
 ![Schematic Diagram](assets/image.png)  
 PCB Editor View:  
 ![PCB Editor View](assets/image-1.png)  
-3D Model:  
+PCB Model:  
+![PCB Model](assets/pcb_model.png)  
+Assembled Model:  
 ![3D Model](assets/image-2.png)  
 
 # Resources
