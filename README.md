@@ -1,7 +1,7 @@
 # Musepad
 This is a macropad that is built for helping with complicated functions when writing music in MuseScore. This macropad also features a compact and minimalistic design so it looks nice, and a plateless design which uses less material and provides more flex to each individual key.  
 
-![Zine](assets/MusePad%20Zine%20V2.png)  
+![Zine](assets/MusePad-Zine-V2.png)  
 
 # User Instructions
 Assembly:  
@@ -22,13 +22,13 @@ I love composing music, and MuseScore is one great free composing software. Howe
 
 # Diagrams
 Schematic Diagram:  
-![Schematic Diagram](assets/image.png)  
+![Schematic Diagram](assets/schematic.png)  
 PCB Editor View:  
-![PCB Editor View](assets/image-1.png)  
+![PCB Editor View](assets/pcb-editor.png)  
 PCB Model:  
 ![PCB Model](assets/pcb_model.png)  
 Assembled Model:  
-![3D Model](assets/image-2.png)  
+![3D Model](assets/full-assembly.png)  
 
 # Resources
 the blueprint tutorial and youtube
