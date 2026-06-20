@@ -1,6 +1,7 @@
 # Musepad
 This is a macropad that is built for helping with complicated functions when writing music in MuseScore. This macropad also features a compact and minimalistic design so it looks nice, and a plateless design which uses less material and provides more flex to each individual key.  
-[zine]  
+
+![Zine](assets/MusePad%20Zine%20V2.png)  
 
 # User Instructions
 Assembly:  
