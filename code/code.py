@@ -18,70 +18,70 @@ matrix = keypad.KeyMatrix(rows, cols, columns_to_anodes=False)
 while True:
     event = matrix.events.get()
     if event:
-        elif event.key_number = 0:
+        if (event.key_number == 0):
             # octave up
             kbd.send(Keycode.CONTROL, Keycode.UP_ARROW)
-        elif event.key_number = 1:
+        elif (event.key_number == 1):
             # octave down
             kbd.send(Keycode.CONTROL, Keycode.DOWN_ARROW)
-        elif event.key_number = 2:
+        elif (event.key_number == 2):
             # toggle sharp flat
             isSharp = not isSharp
-        elif event.key_number = 3:
+        elif (event.key_number == 3):
             # 8th notes
             kbd.send(Keycode.FOUR)
-        elif event.key_number = 4:
+        elif (event.key_number == 4):
             # 16th notes
             kbd.send(Keycode.THREE)
-        elif event.key_number = 5:
+        elif (event.key_number == 5):
             # fake shift
             isShift = not isShift
-        elif event.key_number = 6:
+        elif (event.key_number == 6):
             # quarter note
             kbd.send(Keycode.FIVE)
-        elif event.key_number = 7:
+        elif (event.key_number == 7):
             # half note
             kbd.send(Keycode.SIX)
-        elif event.key_number = 8:
+        elif (event.key_number == 8):
             # whole note
             kbd.send(Keycode.SEVEN)
-        elif event.key_number = 9:
+        elif (event.key_number == 9):
             # dotted note
             kbd.send(Keycode.PERIOD)
-        elif event.key_number = 10:
+        elif event.key_number == 10:
             # rest
             kbd.send(Keycode.ZERO)
-        elif event.key_number = 11:
+        elif event.key_number == 11:
             # tenuto
             kbd.send(Keycode.SHIFT, Keycode.N)
-        elif event.key_number = 12:
+        elif event.key_number == 12:
             # staccato
             kbd.send(Keycode.SHIFT, Keycode.S)
-        elif event.key_number = 13:
+        elif event.key_number == 13:
             # accent
             kbd.send(Keycode.SHIFT, Keycode.V)
-        elif event.key_number = 14:
+        elif event.key_number == 14:
             # marcato
             kbd.send(Keycode.SHIFT, Keycode.O)
-        elif event.key_number = 15:
+        elif event.key_number == 15:
             # tie
             kbd.send(Keycode.T)
-        elif event.key_number = 16:
+        elif event.key_number == 16:
             # slur
             kbd.send(Keycode.S)
-        elif event.key_number = 17:
+        elif event.key_number == 17:
             # chord naming
             kbd.send(Keycode.CONTROL, Keycode.K)
-        elif event.key_number = 18:
+        elif event.key_number == 18:
             # decrescendo
             kbd.send(Keycode.SHIFT, Keycode.PERIOD)
-        elif event.key_number = 19:
+        elif event.key_number == 19:
             # crescendo
             kbd.send(Keycode.SHIFT, Keycode.COMMA)
-        elif event.key_number = 20:
+        elif event.key_number == 20:
             # dynamics
             kbd.send(Keycode.CONTROL, Keycode.D)
-        elif event.key_number = 21:
+        elif event.key_number == 21:
             if isSharp:
                 # d sharp
                 kbd.send(Keycode.KEYPAD_PLUS)
@@ -96,12 +96,12 @@ while True:
                     kbd.press(Keycode.SHIFT)
                 kbd.send(Keycode.E)
                 kbd.release(Keycode.SHIFT)
-        elif event.key_number = 22:
+        elif event.key_number == 22:
             if isSharp:
                 # C sharp
                 kbd.send(Keycode.KEYPAD_PLUS)
                 if isShift:
-                    kbd.press(Keycode_SHIFT)
+                    kbd.press(Keycode.SHIFT)
                 kbd.send(Keycode.C)
                 kbd.release(Keycode.SHIFT)
             else:
@@ -111,49 +111,49 @@ while True:
                     kbd.press(Keycode.SHIFT)
                 kbd.send(Keycode.D)
                 kbd.release(Keycode.SHIFT)
-        elif event.key_number = 23:
+        elif event.key_number == 23:
             # E
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.E)
             kbd.release(Keycode.SHIFT)
-        elif event.key_number = 24:
+        elif event.key_number == 24:
             # F
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.F)
-        kbd.release(Keycode.SHIFT)
-        elif event.key_number = 25:
+            kbd.release(Keycode.SHIFT)
+        elif event.key_number == 25:
             # G
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.G)
             kbd.release(Keycode.SHIFT)
-        elif event.key_number = 26:
+        elif event.key_number == 26:
             # C
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.C)
             kbd.release(Keycode.SHIFT)
-        elif event.key_number = 27:
+        elif event.key_number == 27:
             # D
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.D)
             kbd.release(Keycode.SHIFT)
-        elif event.key_numbder = 28:
+        elif event.key_numbder == 28:
             # A
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.A)
             kbd.release(Keycode.SHIFT)
-        elif event.key_number = 29:
+        elif event.key_number == 29:
             # B
             if isShift:
                 kbd.press(Keycode.SHIFT)
             kbd.send(Keycode.B)
             kbd.release(Keycode.SHIFT)
-        elif event.key_number = 30:
+        elif event.key_number == 30:
             if isSharp:
                 # f sharp
                 kbd.send(Keycode.KEYPAD_PLUS)
@@ -168,7 +168,7 @@ while True:
                     kbd.press(Keycode.SHIFT)
                 kbd.send(Keycode.G)
                 kbd.release(Keycode.SHIFT)
-        elif event.key_number = 31:
+        elif event.key_number == 31:
             if isSharp:
                 # g sharp
                 kbd.send(Keycode.KEYPAD_PLUS)
@@ -183,7 +183,7 @@ while True:
                     kbd.press(Keycode.SHIFT)
                 kbd.send(Keycode.A)
                 kbd.release(Keycode.SHIFT)
-        elif event.key_number = 32:
+        elif event.key_number == 32:
             if isSharp:
                 # a sharp
                 kbd.send(Keycode.KEYPAD_PLUS)
@@ -198,5 +198,3 @@ while True:
                     kbd.press(Keycode.SHIFT)
                 kbd.send(Keycode.B)
                 kbd.release(Keycode.SHIFT)
-        
-
