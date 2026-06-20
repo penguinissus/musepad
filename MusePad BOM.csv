@@ -1,0 +1,13 @@
+,#,Details
+CHERRY MX,33,Any would work
+Diodes,33,1N4140
+Push Button,1,6mm
+Raspberry Pi Pico,1,
+OLED Display,1,0.91 Inch White OLED Display Module I2C Interface
+PCB,1,https://github.com/penguinissus/musepad/tree/main/production
+Case Bottom,1,https://github.com/penguinissus/musepad/blob/main/3d%20models%20prints/Case%20Bottom.step
+Case Top,1,https://github.com/penguinissus/musepad/blob/main/3d%20models%20prints/Case%20Top.step
+Keycap normal size,21,https://github.com/penguinissus/musepad/blob/main/3d%20models%20prints/Keycap%201x1.step
+Keycap white tall,7,https://github.com/penguinissus/musepad/blob/main/3d%20models%20prints/Keycap%201x1.5.step
+Keycap black tall,1,https://github.com/penguinissus/musepad/blob/main/3d%20models%20prints/Keycap%201x1.5%20Black.step
+Keycap black fat,4,https://github.com/penguinissus/musepad/blob/main/3d%20models%20prints/Keycap%201.5x1.5%20Black.step
